@@ -1,5 +1,19 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+    font-size: 30px;
 }
 
+body {
+    background-color:papayawhip;
+}
+a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+}
+
+nav {
+    float: right;
+    margin-top: 0;
+}
