@@ -25,6 +25,10 @@ h2 {
     font-size: 50px;
 }
 
+footer, li{
+    list-style-type: none;
+}
+
 figcaption {
     font-size:30px;
 
@@ -33,6 +37,11 @@ figcaption {
 nav {
     float: right;
     margin-top: 0;
+    font-size: 40px;
+}
+
+#img {
+    float: right ;
 }
 
 @media screen and (max-width: 992px) {
