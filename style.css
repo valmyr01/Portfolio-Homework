@@ -2,6 +2,9 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }
+ html {
+    box-sizing: border-box;
+ }
 
 body {
     background-color:papayawhip;
@@ -11,9 +14,34 @@ a {
     font-size: large;
     color: black;
     font-weight: bolder;
+    position: relative
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+figcaption {
+    font-size:30px;
+
 }
 
 nav {
     float: right;
     margin-top: 0;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 30px;
+
+    }
+    nav {
+
+    }
+
 }
